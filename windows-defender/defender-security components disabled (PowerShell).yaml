@@ -28,6 +28,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
     Payload|contains:
       - '1'
       - '$true'
+  and_selection2_powershell_modern_2:
     Payload|contains:
       # Scanning features
       - DisableArchiveScanning
@@ -49,8 +50,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
       - DisableBlockAtFirstSeen
       - DisableCpuThrottleOnIdleScans
       - DisableDatagramProcessing
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection2_powershell_modern_*
 falsepositives:
 - None
 level: medium
@@ -83,9 +83,11 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
     EventID: 800
     EventData|contains: Set-MpPreference
       - Add-MpPreference
+  and_selection1_powershell_native_2:
     EventData|contains:
       - '1'
       - '$true'
+  and_selection1_powershell_native_3:
     EventData|contains:
       # Scanning features
       - DisableArchiveScanning
@@ -108,8 +110,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
       - DisableCpuThrottleOnIdleScans
       - DisableDatagramProcessing
       - SignatureDisableUpdateOnStartupWithoutEngine
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection1_powershell_native_*
 falsepositives:
 - None
 level: medium
@@ -145,6 +146,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
     ScriptBlockText|contains:
       - '1'
       - '$true'
+  and_selection3_powershell_block_2:
     ScriptBlockText|contains:
       # Scanning features
       - DisableArchiveScanning
@@ -166,8 +168,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
       - DisableBlockAtFirstSeen
       - DisableCpuThrottleOnIdleScans
       - DisableDatagramProcessing
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection3_powershell_block_*
 falsepositives:
 - None
 level: medium

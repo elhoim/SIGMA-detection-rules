@@ -21,12 +21,13 @@ detection:
     CommandLine|contains: # specify the database\instance'
       - /S
       - -S
+  and_selection_2:
     CommandLine|contains:
       - select
       - use
       - top
       - from
-  condition: selection | count() by Computer > 20
+  condition: (selection and all of and_selection_*) | count() by Computer > 20
   timeframe: 5m
 falsepositives:
 - maintenance script

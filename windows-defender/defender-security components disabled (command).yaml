@@ -31,6 +31,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
     CommandLine|contains:
       - '1'
       - '$true'
+  and_selection_2:
     CommandLine|contains:
       # Scanning features
       - DisableArchiveScanning
@@ -53,7 +54,7 @@ detection: # Set-MpPreference -DisableArchiveScanning $true
       - DisableCpuThrottleOnIdleScans
       - DisableDatagramProcessing
       - SignatureDisableUpdateOnStartupWithoutEngine
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - None
 level: medium

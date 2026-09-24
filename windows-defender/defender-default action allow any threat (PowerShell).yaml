@@ -32,6 +32,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
     Payload|contains:
       - '6' # MP_THREAT_ACTION_ALLOW
       - 'Allow'
+  and_selection2_powershell_modern_2:
     Payload|contains:
       - HighThreatDefaultAction
       - ModerateThreatDefaultAction
@@ -39,8 +40,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
       - SevereThreatDefaultAction
       - UnknownThreatDefaultAction 
       - ThreatIDDefaultAction_Actions # used with "Add-MpPreference" for a specific identified threat
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection2_powershell_modern_*
 falsepositives:
 - None
 level: high
@@ -78,6 +78,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
     EventData|contains:
       - '6' # MP_THREAT_ACTION_ALLOW
       - 'Allow'
+  and_selection1_powershell_native_2:
     EventData|contains:
       - HighThreatDefaultAction
       - ModerateThreatDefaultAction
@@ -85,8 +86,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
       - SevereThreatDefaultAction
       - UnknownThreatDefaultAction 
       - ThreatIDDefaultAction_Actions # used with "Add-MpPreference" for a specific identified threat
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection1_powershell_native_*
 falsepositives:
 - None
 level: high
@@ -124,6 +124,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
     ScriptBlockText|contains:
       - '6' # MP_THREAT_ACTION_ALLOW
       - 'Allow'
+  and_selection3_powershell_block_2:
     ScriptBlockText|contains:
       - HighThreatDefaultAction
       - ModerateThreatDefaultAction
@@ -131,8 +132,7 @@ detection: # Set-MpPreference -UnknownThreatDefaultAction Allow -LowThreatDefaul
       - SevereThreatDefaultAction
       - UnknownThreatDefaultAction 
       - ThreatIDDefaultAction_Actions # used with "Add-MpPreference" for a specific identified threat
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection3_powershell_block_*
 falsepositives:
 - None
 level: high

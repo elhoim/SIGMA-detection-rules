@@ -29,14 +29,14 @@ detection: # Set-MpPreference -DisableRealtimeMonitoring $true
     Payload|contains:
       - '1'
       - '$true'
+  and_selection2_powershell_modern_2:
     Payload|contains:
       - DisableRealtimeMonitoring
       - DisableBehaviorMonitoring
       - DisableIOAVProtection # scans downloaded files and attachment
       - DisableIntrusionPreventionSystem # network protection against exploitation of known vulnerabilities
       - DisableInboundConnectionFiltering
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection2_powershell_modern_*
 falsepositives:
 - None
 level: high
@@ -68,17 +68,18 @@ detection: # Set-MpPreference -DisableRealtimeMonitoring $true
   selection1_powershell_native:
     EventID: 800
     EventData|contains: Set-MpPreference
+  and_selection1_powershell_native_2:
     EventData|contains:
       - '1'
       - '$true'
+  and_selection1_powershell_native_3:
     EventData|contains:
       - DisableRealtimeMonitoring
       - DisableBehaviorMonitoring
       - DisableIOAVProtection # scans downloaded files and attachment
       - DisableIntrusionPreventionSystem # network protection against exploitation of known vulnerabilities
       - DisableInboundConnectionFiltering
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection1_powershell_native_*
 falsepositives:
 - None
 level: high
@@ -113,14 +114,14 @@ detection: # Set-MpPreference -DisableRealtimeMonitoring $true
     ScriptBlockText|contains:
       - '1'
       - '$true'
+  and_selection3_powershell_block_2:
     ScriptBlockText|contains:
       - DisableRealtimeMonitoring
       - DisableBehaviorMonitoring
       - DisableIOAVProtection # scans downloaded files and attachment
       - DisableIntrusionPreventionSystem # network protection against exploitation of known vulnerabilities
       - DisableInboundConnectionFiltering
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection3_powershell_block_*
 falsepositives:
 - None
 level: high

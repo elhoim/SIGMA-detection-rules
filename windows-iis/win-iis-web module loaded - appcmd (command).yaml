@@ -35,8 +35,9 @@ detection: # C:\Windows\System32\inetsrv\appcmd.exe install module /name:MyNativ
     CommandLine|contains:
       - install
       - add
+  and_selection_2:
     CommandLine|contains: module
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - New modules deployed on IIS Web servers, but also Exchange and ADCS servers
 level: high

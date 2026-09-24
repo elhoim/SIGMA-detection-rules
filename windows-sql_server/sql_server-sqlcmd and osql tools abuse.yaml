@@ -25,10 +25,11 @@ detection:
     CommandLine|contains: # specify the database\instance'
       - /S
       - -S
+  and_selection_2:
     CommandLine|contains: # runs a query and immediately exists
       - /Q
       - -Q
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - Master database restore procedure
 - Maintenance operation

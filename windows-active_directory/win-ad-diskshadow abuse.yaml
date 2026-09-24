@@ -23,10 +23,11 @@ detection:
     EventID: 4688
     NewProcessName|endswith: \diskshadow.exe
     CommandLine|contains: diskshadow
+  and_selection_2:
     CommandLine|contains:
       - /s
       - -s
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - Administrator manipulating VSS backup
 level: high

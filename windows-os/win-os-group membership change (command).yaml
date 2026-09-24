@@ -19,8 +19,9 @@ detection:
     CommandLine|contains:
       - group
       - localgroup
+  and_selection_2:
     CommandLine|contains: add
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - Pentest
 - Administrator activity

@@ -32,6 +32,7 @@ detection:
 
   selection_command_line:
     CommandLine|contains: cmd
+  and_selection_command_line_2:
     CommandLine|contains:
       - sethc.exe
       - utilman.exe
@@ -39,7 +40,7 @@ detection:
       - Magnify.exe
       - Narrator.exe
       - DisplaySwitch.exe
-  condition: (selection_process or selection_sysmon) and selection_command_line
+  condition: (selection_process or selection_sysmon) and (selection_command_line and all of and_selection_command_line_*)
 falsepositives:
 - None
 level: high

@@ -17,11 +17,11 @@ detection: # full command: Set-Date -Date (Get-Date).AddDays(3)
   selection_powershell_modern:
     EventID: 4103
     Payload|contains: Set-Date
+  and_selection_powershell_modern_2:
     Payload|contains:
       - -Date
       - -Adjust
-
-  condition: selection_powershell_modern
+  condition: (selection_powershell_modern and all of and_selection_powershell_modern_*)
 falsepositives:
 - None
 level: medium
@@ -49,11 +49,11 @@ detection: # full command: Set-Date -Date (Get-Date).AddDays(3)
   selection_powershell_native:
     EventID: 800
     EventData|contains: Set-Date
+  and_selection_powershell_native_2:
     EventData|contains:
       - -Date
       - -Adjust
-
-  condition: selection_powershell_native
+  condition: (selection_powershell_native and all of and_selection_powershell_native_*)
 falsepositives:
 - None
 level: medium
@@ -81,11 +81,11 @@ detection: # full command: Set-Date -Date (Get-Date).AddDays(3)
   selection_powershell_block:
     EventID: 4104
     ScriptBlockText|contains: Set-Date
+  and_selection_powershell_block_2:
     ScriptBlockText|contains:
       - -Date
       - -Adjust
-
-  condition: selection_powershell_block
+  condition: (selection_powershell_block and all of and_selection_powershell_block_*)
 falsepositives:
 - None
 level: medium
