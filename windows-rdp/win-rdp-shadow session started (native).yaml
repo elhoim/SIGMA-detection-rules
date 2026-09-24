@@ -10,7 +10,7 @@ references:
 - https://bitsadm.in/blog/spying-on-users-using-rdp-shadowing
 - https://swarm.ptsecurity.com/remote-desktop-services-shadowing/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.001 # remote services: RDP
 - attack.collection
 - attack.t1113 # screen capture

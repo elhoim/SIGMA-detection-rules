@@ -13,8 +13,8 @@ references:
 - https://github.com/swagkarna/Defeat-Defender-V1.2
 - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-on-windows-server?view=o365-worldwide
 tags:
-- attack.defense_evasion
-- attack.t1562.001
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:

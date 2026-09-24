@@ -5,8 +5,8 @@ references:
 - https://techcommunity.microsoft.com/t5/networking-blog/dns-over-tls-available-to-windows-insiders/ba-p/3565859
 - http://woshub.com/enable-dns-over-https-windows/
 tags:
-- attack.defense_evasion
-- attack.command_and_control
+- attack.stealth
+- attack.command-and-control
 - attack.t1071.004 
 author: mdecrevoisier
 status: experimental
@@ -37,8 +37,8 @@ references:
 - https://techcommunity.microsoft.com/t5/networking-blog/dns-over-tls-available-to-windows-insiders/ba-p/3565859
 - http://woshub.com/enable-dns-over-https-windows/
 tags:
-- attack.defense_evasion
-- attack.command_and_control
+- attack.stealth
+- attack.command-and-control
 - attack.t1071.004 
 author: mdecrevoisier
 status: experimental
@@ -69,8 +69,8 @@ references:
 - https://techcommunity.microsoft.com/t5/networking-blog/dns-over-tls-available-to-windows-insiders/ba-p/3565859
 - http://woshub.com/enable-dns-over-https-windows/
 tags:
-- attack.defense_evasion
-- attack.command_and_control
+- attack.stealth
+- attack.command-and-control
 - attack.t1071.004 
 author: mdecrevoisier
 status: experimental

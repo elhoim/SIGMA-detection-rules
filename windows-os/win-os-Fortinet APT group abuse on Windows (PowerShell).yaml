@@ -8,7 +8,7 @@ references:
 - https://vimalshekar.github.io/scriptsamples/Getting-Stored-Web-Credentials-using-PowerShell
 - https://gist.github.com/Samirbous/c3c4122493ea5076adea9c895d2340ea
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1555.004
 author: mdecrevoisier
 status: experimental
@@ -41,7 +41,7 @@ references:
 - https://vimalshekar.github.io/scriptsamples/Getting-Stored-Web-Credentials-using-PowerShell
 - https://gist.github.com/Samirbous/c3c4122493ea5076adea9c895d2340ea
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1555.004
 author: mdecrevoisier
 status: experimental
@@ -74,7 +74,7 @@ references:
 - https://vimalshekar.github.io/scriptsamples/Getting-Stored-Web-Credentials-using-PowerShell
 - https://gist.github.com/Samirbous/c3c4122493ea5076adea9c895d2340ea
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1555.004
 author: mdecrevoisier
 status: experimental

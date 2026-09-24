@@ -11,8 +11,8 @@ references:
 - https://www.alitajran.com/disable-windows-firewall-with-powershell/
 - https://docs.microsoft.com/en-us/powershell/module/netsecurity/set-netfirewallprofile?view=windowsserver2019-ps
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -44,8 +44,8 @@ references:
 - https://www.alitajran.com/disable-windows-firewall-with-powershell/
 - https://docs.microsoft.com/en-us/powershell/module/netsecurity/set-netfirewallprofile?view=windowsserver2019-ps
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -77,8 +77,8 @@ references:
 - https://www.alitajran.com/disable-windows-firewall-with-powershell/
 - https://docs.microsoft.com/en-us/powershell/module/netsecurity/set-netfirewallprofile?view=windowsserver2019-ps
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:

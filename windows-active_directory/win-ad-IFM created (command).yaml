@@ -21,7 +21,7 @@ references:
 - https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise/
 - https://medium.com/@simone.kraus/part-2-sensor-mapping-reverse-engineering-ntds-a73bde69031e
 tags:
-- attack.credential_dumping
+- attack.t1003
 - attack.t1003.003
 author: mdecrevoisier
 status: experimental

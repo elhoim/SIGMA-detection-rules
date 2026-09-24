@@ -13,8 +13,8 @@ references:
 tags:
 - attack.impact
 - attack.t1489 # Service Stop 
-- attack.defense_evasion
-- attack.1562.001 # Impair Defenses: Disable or Modify Tools 
+- attack.defense-impairment
+- attack.t1685 # Impair Defenses: Disable or Modify Tools 
 author: mdecrevoisier
 status: experimental
 logsource:

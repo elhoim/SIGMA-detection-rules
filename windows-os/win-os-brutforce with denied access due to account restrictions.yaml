@@ -9,7 +9,7 @@ references:
   - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/TA0001-Initial%20access/T1078-Valid%20accounts
   - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625
 tags:
-  - attack.privilege_escalation
+  - attack.privilege-escalation
   - attack.t1078
 author: mdecrevoisier
 status: experimental

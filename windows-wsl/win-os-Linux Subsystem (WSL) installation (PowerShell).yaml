@@ -14,7 +14,7 @@ references:
 - https://blog.lumen.com/no-longer-just-theory-black-lotus-labs-uncovers-linux-executables-deployed-as-stealth-windows-loaders/
 - https://learn.microsoft.com/en-us/windows/wsl/
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1564.006
 author: mdecrevoisier
 status: experimental
@@ -47,7 +47,7 @@ references:
 - https://blog.lumen.com/no-longer-just-theory-black-lotus-labs-uncovers-linux-executables-deployed-as-stealth-windows-loaders/
 - https://learn.microsoft.com/en-us/windows/wsl/
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1564.006
 author: mdecrevoisier
 status: experimental

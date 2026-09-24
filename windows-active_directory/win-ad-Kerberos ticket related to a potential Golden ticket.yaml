@@ -12,7 +12,7 @@ references:
 - https://bond-o.medium.com/golden-ticket-attack-ea89553cf9c0
 - https://www.blackhat.com/docs/us-15/materials/us-15-Metcalf-Red-Vs-Blue-Modern-Active-Directory-Attacks-Detection-And-Protection-wp.pdf
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1558.001
 author: mdecrevoisier
 status: experimental

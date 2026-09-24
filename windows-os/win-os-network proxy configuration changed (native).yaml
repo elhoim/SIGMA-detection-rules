@@ -4,9 +4,8 @@ description: Detects scenarios where an attacker attempts to modify proxy config
 references:
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack
 tags:
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1090 # proxy
-- attack.t0884 # connection proxy
 author: mdecrevoisier
 status: experimental
 logsource:

@@ -7,7 +7,7 @@ references:
 - https://4sysops.com/archives/powershell-remoting-without-administrator-rights/
 - https://www.synacktiv.com/publications/traces-of-windows-remote-command-execution.html
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.006
 author: mdecrevoisier
 logsource:

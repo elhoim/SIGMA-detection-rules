@@ -7,7 +7,7 @@ references:
 - https://github.com/antonioCoco/RunasCs
 - https://twitter.com/SBousseaden/status/1478373779642400783
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1134.002
 author: mdecrevoisier
 status: experimental

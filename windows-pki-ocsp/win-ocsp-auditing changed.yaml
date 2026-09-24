@@ -9,8 +9,8 @@ references:
 - https://speakerdeck.com/heirhabarov/hunting-for-active-directory-certificate-services-abuse
 - https://www.crowdstrike.com/wp-content/uploads/2023/12/investigating-active-directory-certificate-abuse.pdf
 tags:
-- attack.defense_evasion
-- attack.t1562.002 # Impair Defenses: Disable or Modify Tools 
+- attack.defense-impairment
+- attack.t1685.001 # Impair Defenses: Disable or Modify Tools 
 author: mdecrevoisier
 status: experimental
 logsource:

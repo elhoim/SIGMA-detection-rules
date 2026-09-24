@@ -14,9 +14,9 @@ references:
 - https://github.com/ly4k/Pachine
 - https://www.jpcert.or.jp/english/pub/sr/20170612ac-ir_research_en.pdf
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1558 # forged ticket
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1068 # exploitation for privilege escalation
 author: mdecrevoisier
 status: experimental

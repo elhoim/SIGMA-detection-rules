@@ -9,7 +9,7 @@ references:
 - https://www.ired.team/offensive-security/lateral-movement/t1175-distributed-component-object-model
 - https://www.synacktiv.com/publications/traces-of-windows-remote-command-execution.html
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.003
 author: mdecrevoisier
 status: experimental
@@ -46,7 +46,7 @@ references:
 - https://www.ired.team/offensive-security/lateral-movement/t1175-distributed-component-object-model
 - https://www.synacktiv.com/publications/traces-of-windows-remote-command-execution.html
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.003
 author: mdecrevoisier
 status: experimental
@@ -83,7 +83,7 @@ references:
 - https://www.ired.team/offensive-security/lateral-movement/t1175-distributed-component-object-model
 - https://www.synacktiv.com/publications/traces-of-windows-remote-command-execution.html
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.003
 author: mdecrevoisier
 status: experimental

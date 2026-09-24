@@ -5,7 +5,7 @@ references:
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/TA0006-Credential%20Access/T1555-Credentials%20from%20Password%20Stores
 - https://github.com/login-securite/DonPAPI
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1555
 author: mdecrevoisier
 status: experimental

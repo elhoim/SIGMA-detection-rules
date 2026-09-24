@@ -14,7 +14,7 @@ references:
 tags:
 - attack.persistence
 - attack.t1543.003
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1563.002
 author: mdecrevoisier
 status: experimental
@@ -50,7 +50,7 @@ references:
 tags:
 - attack.persistence
 - attack.t1543.003
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1563.002
 author: mdecrevoisier
 status: experimental

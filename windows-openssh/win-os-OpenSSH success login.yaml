@@ -9,7 +9,6 @@ references:
 - https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx
 - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.valid_account
 - attack.t1078
 author: mdecrevoisier
 status: experimental

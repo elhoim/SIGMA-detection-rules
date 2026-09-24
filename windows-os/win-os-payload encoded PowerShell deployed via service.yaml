@@ -10,9 +10,9 @@ references:
 - https://www.f5.com/labs/articles/threat-intelligence/vulnerabilities-exploits-and-malware-driving-attack-campaigns-in-october-2019
 - https://www.crowdstrike.com/blog/getting-the-bacon-from-cobalt-strike-beacon/
 tags:
-- attack.privilege_execution
+- attack.privilege-escalation
 - attack.t1543.003
-- attack.defense_evasion
+- attack.stealth
 - attack.t1027
 author: mdecrevoisier
 status: experimental
@@ -49,9 +49,9 @@ references:
 - https://www.f5.com/labs/articles/threat-intelligence/vulnerabilities-exploits-and-malware-driving-attack-campaigns-in-october-2019
 - https://www.crowdstrike.com/blog/getting-the-bacon-from-cobalt-strike-beacon/
 tags:
-- attack.privilege_execution
+- attack.privilege-escalation
 - attack.t1543.003
-- attack.defense_evasion
+- attack.stealth
 - attack.t1027
 author: mdecrevoisier
 status: experimental

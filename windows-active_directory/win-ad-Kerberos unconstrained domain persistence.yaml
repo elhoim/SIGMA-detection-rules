@@ -10,7 +10,7 @@ references:
 - https://stealthbits.com/blog/what-is-kerberos-delegation-an-overview-of-kerberos-delegation/
 - https://www.thehacker.recipes/ad/movement/kerberos/delegations#talk
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1558
 author: mdecrevoisier
 status: experimental

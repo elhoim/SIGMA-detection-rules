@@ -6,9 +6,9 @@ references:
 - https://corelight.com/blog/2019/05/23/how-to-use-corelight-and-zeek-logs-to-mitigate-rds-rdp-vulnerabilities
 - https://www.cyberark.com/resources/threat-research-blog/explain-like-i-m-5-remote-desktop-protocol-rdp
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.001 # remote services: RDP
-- attack.privilege_escalation
+- attack.privilege-escalation
 author: mdecrevoisier
 status: experimental
 logsource:

@@ -12,7 +12,7 @@ references:
 - https://www.mandiant.com/resources/apt29-domain-frontin
 - https://www.clearskysec.com/wp-content/uploads/2020/02/ClearSky-Fox-Kitten-Campaign-v1.pdf
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1546.008
 author: mdecrevoisier
 status: experimental

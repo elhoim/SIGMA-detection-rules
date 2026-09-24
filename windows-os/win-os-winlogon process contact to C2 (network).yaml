@@ -8,7 +8,7 @@ requirements: SYSMON configuration from SwiftOnSecurity needs to be adapted in o
 references:
 - https://www.microsoft.com/en-us/security/blog/2023/04/11/guidance-for-investigating-attacks-using-cve-2022-21894-the-blacklotus-campaign/
 tags:
-- attack.command_and_control
+- attack.command-and-control
 - attack.discovery
 - attack.t1016 # System Network Configuration Discovery 
 author: mdecrevoisier

@@ -12,7 +12,7 @@ references:
 - https://adsecurity.org/?p=3458
 - https://www.security.com/threat-intelligence/us-china-espionage
 tags:
-- attack.account_discovery
+- attack.t1087
 - attack.t1087.002 # Account Discovery: Domain Account
 author: mdecrevoisier
 status: experimental

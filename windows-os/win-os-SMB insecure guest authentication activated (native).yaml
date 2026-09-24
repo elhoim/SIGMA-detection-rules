@@ -4,10 +4,10 @@ description: Detects scenarios where an attacker attempts to enable insecure gue
 references:
 - https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/microsoft-windows-workstationservice-allowinsecureguestauth
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.002 # Remote Services: SMB/Windows Admin Shares 
-- attack.defense_evasion
-- attack.t1562.010 # Impair Defenses: Downgrade Attack  
+- attack.defense-impairment
+- attack.t1689 # Impair Defenses: Downgrade Attack  
 author: mdecrevoisier
 status: experimental
 logsource:

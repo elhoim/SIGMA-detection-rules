@@ -11,7 +11,7 @@ references:
 - https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-rights-assignment
 - https://medium.com/falconforce/falconfriday-detecting-lsass-dumping-with-debug-privileges-0xff1f-328fdb78f5be
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1134
 author: mdecrevoisier
 status: experimental

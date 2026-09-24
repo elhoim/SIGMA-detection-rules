@@ -13,7 +13,7 @@ references:
 tags:
 - attack.collection
 - attack.t1114
-- attack.initial_access
+- attack.initial-access
 - attack.t1566
 author: mdecrevoisier
 status: experimental

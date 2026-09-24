@@ -12,8 +12,8 @@ references:
  - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
  - https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -47,8 +47,8 @@ references:
  - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
  - https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -82,8 +82,8 @@ references:
  - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
  - https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:

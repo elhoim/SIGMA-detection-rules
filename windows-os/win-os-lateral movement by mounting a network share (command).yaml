@@ -12,7 +12,7 @@ references:
 - https://stealthbits.com/blog/how-to-detect-pass-the-hash-attacks/
 - https://attack.mitre.org/software/S0039/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.002
 author: mdecrevoisier
 status: experimental

@@ -16,7 +16,7 @@ references:
 - https://github.com/mez-0/CSharpWinR
 - https://github.com/antonioCoco/RogueWinRM
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.006
 author: mdecrevoisier
 status: experimental

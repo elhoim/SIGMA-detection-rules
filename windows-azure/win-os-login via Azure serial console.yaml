@@ -6,8 +6,8 @@ references:
 - https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/serial-console-cmd-ps-commands
 - https://www.mandiant.com/resources/blog/sim-swapping-abuse-azure-serial
 tags:
-- attack.initial_access
-- attack.privilege_escalation
+- attack.initial-access
+- attack.privilege-escalation
 - attack.t1078 # valid accounts
 author: mdecrevoisier
 status: experimental

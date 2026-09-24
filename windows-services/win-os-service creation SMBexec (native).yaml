@@ -9,9 +9,9 @@ references:
 - https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbexec.py
 - https://nv2lt.github.io/windows/smb-psexec-smbexec-winexe-how-to/
 tags:
-- attack.defense_evasion
+- attack.defense-impairment
 - attack.t1112
-- attack.privilege_execution
+- attack.privilege-escalation
 - attack.t1543.003
 author: mdecrevoisier
 status: experimental
@@ -42,9 +42,9 @@ references:
 - https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbexec.py
 - https://nv2lt.github.io/windows/smb-psexec-smbexec-winexe-how-to/
 tags:
-- attack.defense_evasion
+- attack.defense-impairment
 - attack.t1112
-- attack.privilege_execution
+- attack.privilege-escalation
 - attack.t1543.003
 author: mdecrevoisier
 status: experimental

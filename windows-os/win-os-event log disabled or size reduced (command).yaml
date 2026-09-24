@@ -11,8 +11,8 @@ references:
 - https://www.cybereason.com/blog/research/cybereason-vs.-ransomexx-ransomware
 - https://research.splunk.com/endpoint/236e7c8e-c9d9-11eb-a824-acde48001122/
 tags:
-- attack.defense_evasion
-- attack.t1562.002 # Disable Windows Event Logging 
+- attack.defense-impairment
+- attack.t1685.001 # Disable Windows Event Logging 
 author: mdecrevoisier
 status: experimental
 logsource:

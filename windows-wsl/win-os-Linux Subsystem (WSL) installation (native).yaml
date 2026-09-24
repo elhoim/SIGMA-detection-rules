@@ -12,7 +12,7 @@ references:
 - https://blog.f-secure.com/hunting-for-windows-subsystem-for-linux/
 - https://blog.lumen.com/no-longer-just-theory-black-lotus-labs-uncovers-linux-executables-deployed-as-stealth-windows-loaders/
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1564.006 # Hide Artifacts: Run Virtual Instance 
 author: mdecrevoisier
 status: experimental

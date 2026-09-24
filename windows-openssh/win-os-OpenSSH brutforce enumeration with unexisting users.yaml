@@ -12,7 +12,7 @@ references:
   - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
   - https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx
 tags:
-  - attack.credential_access
+  - attack.credential-access
   - attack.t1110
 author: mdecrevoisier
 status: experimental
