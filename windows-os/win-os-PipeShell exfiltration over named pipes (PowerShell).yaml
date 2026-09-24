@@ -26,7 +26,7 @@ detection:
   CLIENT_spowershell_modern:
     EventID: 4103
     Payload|contains: 'System.IO.Pipes.NamedPipeClientStream'
-  condition: (1 of SERVER*) AND (1 of CLIENT*)
+  condition: (1 of SERVER*) and (1 of CLIENT*)
 falsepositives:
 - packet manager
 level: medium
@@ -78,7 +78,7 @@ detection:
   CLIENT_powershell_native:
     EventID: 800
     EventData|contains: 'System.IO.Pipes.NamedPipeClientStream'
-  condition: (1 of SERVER*) AND (1 of CLIENT*)
+  condition: (1 of SERVER*) and (1 of CLIENT*)
 falsepositives:
 - packet manager
 level: medium
@@ -132,7 +132,7 @@ detection:
     EventID: 4104
     ScriptBlockText|contains: 'System.IO.Pipes.NamedPipeClientStream'
 
-  condition: (1 of SERVER*) AND (1 of CLIENT*)
+  condition: (1 of SERVER*) and (1 of CLIENT*)
 falsepositives:
 - packet manager
 level: medium

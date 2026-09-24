@@ -20,11 +20,11 @@ detection: # netsh firewall add portopening TCP 80 "Open Port 80"
   selection_event:
     EventID: 4688
     NewProcessName|endswith: '\netsh.exe' # Full path "C:\Windows\system32\netsh.exe"
-    Commandline|contains|all:
+    CommandLine|contains|all:
       - netsh
       - firewall # covers also advfirewall
       - add
-  condition: selection
+  condition: selection_event
 falsepositives:
 - Administrator activity
 level: medium

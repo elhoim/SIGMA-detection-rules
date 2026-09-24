@@ -47,7 +47,7 @@ detection:
       - 'srv'  # object type
       - 'actn' # action
 
-  condition: selection_sdset OR selection_subinACL OR selection_setACL
+  condition: selection_sdset or selection_subinACL or selection_setACL
 falsepositives:
 - administrator reconfiguring service
 level: high

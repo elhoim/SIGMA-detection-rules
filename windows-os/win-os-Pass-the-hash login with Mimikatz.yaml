@@ -31,7 +31,7 @@ detection: # command: 'privilege::debug' + 'sekurlsa::pth /user:<user> /domain:<
   #filter: # if 'token::elevate' command is used, both Subject and Target will be related to SYSTEM account. Therefore the filter needs to be removed.
     #SubjectUserName|endswith: '$'
     #TargetUserName|endswith: '$'
-  condition: selection and not filter
+  condition: selection # the filter above is commented out
 falsepositives:
 - Runas.exe executed with /netonly parameter
 level: high

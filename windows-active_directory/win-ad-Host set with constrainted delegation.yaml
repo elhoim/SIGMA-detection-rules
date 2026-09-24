@@ -37,7 +37,7 @@ detection:
   selection2:
     AllowedToDelegateTo: '-' # Can be: "cifs/srv01 cifs/srv02.demo.lan dcom/dc03..."
     
-  condition: selection and (selection1 OR NOT selection2) 
+  condition: selection and (selection1 or not selection2) 
 falsepositives:
 - Rare administrator modifying host delegation settings
 level: high

@@ -27,7 +27,7 @@ detection: # sc config <service_name> binPath="C:\windows\system32\pentestlab.ex
       - sc
       - config
       - binpath
-  condition: selection
+  condition: selection_process
 falsepositives:
 - administrator reconfiguring service
 level: high
