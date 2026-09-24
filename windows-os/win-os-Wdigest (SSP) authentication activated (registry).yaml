@@ -10,10 +10,10 @@ references:
 - https://github.com/HarmJ0y/Misc-PowerShell/blob/master/Invoke-WdigestDowngrade.ps1
 - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1003
-- attack.defense_evasion
-- attack.t1562
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:

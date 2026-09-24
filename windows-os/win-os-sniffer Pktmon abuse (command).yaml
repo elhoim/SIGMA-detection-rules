@@ -6,7 +6,7 @@ references:
 - https://dev.to/qainsights/windows-network-sniffer-pktmon-2576
 - https://docs.microsoft.com/en-us/windows-server/networking/technologies/pktmon/pktmon
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1040 # Network Sniffing 
 author: mdecrevoisier
 status: experimental

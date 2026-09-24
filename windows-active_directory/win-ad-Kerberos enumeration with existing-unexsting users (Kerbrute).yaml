@@ -7,7 +7,7 @@ references:
   - https://github.com/ropnop/kerbrute
   - https://www.jpcert.or.jp/english/pub/sr/20170612ac-ir_research_en.pdf
 tags:
-  - attack.credential_access
+  - attack.credential-access
   - attack.t1110
 author: mdecrevoisier
 status: experimental

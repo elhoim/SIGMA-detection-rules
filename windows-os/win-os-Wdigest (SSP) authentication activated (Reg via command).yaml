@@ -12,10 +12,10 @@ references:
 - https://www.sentinelone.com/blog/how-attackers-exploit-security-support-provider-ssp-for-credential-dumping/
 
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1003
-- attack.defense_evasion
-- attack.t1562
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:

@@ -11,7 +11,7 @@ references:
 tags:
 - attack.execution
 - attack.t1059.001 # Command and Scripting Interpreter: PowerShell 
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1105 # Ingress Tool Transfer
 author: mdecrevoisier
 logsource:
@@ -53,7 +53,7 @@ references:
 tags:
 - attack.execution
 - attack.t1059.001 # Command and Scripting Interpreter: PowerShell 
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1105 # Ingress Tool Transfer
 author: mdecrevoisier
 logsource:
@@ -95,7 +95,7 @@ references:
 tags:
 - attack.execution
 - attack.t1059.001 # Command and Scripting Interpreter: PowerShell 
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1105 # Ingress Tool Transfer
 author: mdecrevoisier
 logsource:

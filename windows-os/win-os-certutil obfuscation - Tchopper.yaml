@@ -9,7 +9,7 @@ references:
 - https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil
 - https://www.sentinelone.com/blog/malware-living-off-land-with-certutil/
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1140
 author: mdecrevoisier
 status: experimental

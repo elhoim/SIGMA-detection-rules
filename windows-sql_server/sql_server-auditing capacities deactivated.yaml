@@ -8,8 +8,8 @@ references:
 - https://www.sqlshack.com/various-techniques-to-audit-sql-server-databases/
 - https://sqlquantumleap.com/reference/server-audit-filter-values-for-action_id_id/
 tags:
-- attack.defense_evasion
-- attack.t1562.002
+- attack.defense-impairment
+- attack.t1685.001
 author: mdecrevoisier
 status: experimental
 logsource:

@@ -11,7 +11,7 @@ references:
 - https://www.theregister.com/2021/09/21/microsoft_printnightmare/
 - https://www.exabeam.com/information-security/detecting-the-printnightmare-cve-2021-1675-34527-vulnerability-using-exabeam/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.002
 author: mdecrevoisier
 status: experimental

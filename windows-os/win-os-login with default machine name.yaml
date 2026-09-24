@@ -5,7 +5,7 @@ references:
 - https://cybercx.com.au/blog/akira-ransomware/
 - https://www.techtarget.com/searchenterprisedesktop/blog/Windows-Enterprise-Desktop/Win10-ComputerName-Generation
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1564.006 # Hide Artifacts: Run Virtual Instance 
 author: mdecrevoisier
 status: experimental

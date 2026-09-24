@@ -19,9 +19,9 @@ references:
 tags:
   - attack.discovery
   - attack.t1046 # network service scanning
-  - attack.credential_access
+  - attack.credential-access
   - attack.t1110 # brutforce
-  - attack.lateral_movement
+  - attack.lateral-movement
   - attack.t1021.001 # remote services: RDP
 author: mdecrevoisier
 status: experimental

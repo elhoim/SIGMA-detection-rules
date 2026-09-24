@@ -15,7 +15,7 @@ references:
 - https://blog.stealthbits.com/creating-persistence-with-dcshadow/
 - https://book.hacktricks.xyz/windows/active-directory-methodology/dcshadow
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1003.001
 author: mdecrevoisier
 status: experimental

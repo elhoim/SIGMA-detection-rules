@@ -7,7 +7,7 @@ references:
 - https://jlajara.gitlab.io/others/2020/11/22/Potatoes_Windows_Privesc.html
 - https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1134.001
 author: mdecrevoisier
 status: experimental

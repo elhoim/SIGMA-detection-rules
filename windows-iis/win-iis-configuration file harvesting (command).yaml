@@ -8,7 +8,7 @@ references:
 - https://tdm.socprime.com/tdm/info/3n7KrfogcqRG/#sigma
 - https://twitter.com/0gtweet/status/1588815661085917186
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1003
 author: mdecrevoisier (adapted from Tim Rauch and Grzegorz Tworek feedback)
 status: experimental

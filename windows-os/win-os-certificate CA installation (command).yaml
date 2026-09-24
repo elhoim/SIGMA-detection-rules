@@ -8,7 +8,7 @@ references:
 - https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/import-third-party-ca-to-enterprise-ntauth-store#method-2---import-a-certificate-by-using-certutilexe
 - https://strontic.github.io/xcyclopedia/library/certutil.exe-138DC8312317ED386C1CB62E19EA9269.html
 tags:
-- attack.defense_evasion
+- attack.defense-impairment
 - attack.t1553.004 # Subvert Trust Controls: Install Root Certificate 
 author: mdecrevoisier
 status: experimental

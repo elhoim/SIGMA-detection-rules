@@ -10,8 +10,8 @@ references:
 - https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/u-s-federal-network-hacked/?amp
 - https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise/
 tags:
-- attack.defense_evasion
-- attack.t1562.001
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -50,8 +50,8 @@ references:
 - https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/u-s-federal-network-hacked/?amp
 - https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise/
 tags:
-- attack.defense_evasion
-- attack.t1562.001
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:
@@ -90,8 +90,8 @@ references:
 - https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/u-s-federal-network-hacked/?amp
 - https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise/
 tags:
-- attack.defense_evasion
-- attack.t1562.001
+- attack.defense-impairment
+- attack.t1685
 author: mdecrevoisier
 status: experimental
 logsource:

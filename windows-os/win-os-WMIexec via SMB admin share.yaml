@@ -8,7 +8,7 @@ references:
 - https://www.crowdstrike.com/blog/how-to-detect-and-prevent-impackets-wmiexec/
 - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.002
 author: mdecrevoisier
 status: experimental

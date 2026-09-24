@@ -6,7 +6,7 @@ references:
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/TA0003-Persistence/T1546-Event%20Triggered%20Execution
 - https://adds-security.blogspot.com/2017/08/adminsdholder-backdoor-via-substitution.html
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1564
 author: mdecrevoisier
 status: experimental

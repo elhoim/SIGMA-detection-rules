@@ -8,7 +8,7 @@ references:
 - http://www.pseale.com/pretend-youre-on-the-domain-with-runas-netonly
 - https://blog.palantir.com/windows-privilege-abuse-auditing-detection-and-defense-3078a403d74e
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1134.002
 author: mdecrevoisier
 status: experimental

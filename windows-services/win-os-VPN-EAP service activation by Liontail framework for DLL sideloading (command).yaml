@@ -5,7 +5,7 @@ references:
 - https://research.checkpoint.com/2023/from-albania-to-the-middle-east-the-scarred-manticore-is-listening/
 - https://securelist.com/incident-response-interesting-cases-2023/113611/
 tags:
-- attack.privilege_escalation
+- attack.privilege-escalation
 - attack.t1543.003 # Create or Modify System Process: Windows Service
 author: mdecrevoisier
 status: stable

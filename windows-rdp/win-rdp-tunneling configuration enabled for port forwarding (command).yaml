@@ -13,9 +13,9 @@ references:
 - https://practicalsecurityanalytics.com/how-to-leverage-internal-proxies-for-lateral-movement-firewall-evasion-and-trust-exploitation/
 - https://www.volexity.com/blog/2024/11/22/the-nearest-neighbor-attack-how-a-russian-apt-weaponized-nearby-wi-fi-networks-for-covert-access/
 tags:
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1572 # tunneling
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.001 # remote services: RDP
 author: mdecrevoisier
 status: experimental

@@ -10,9 +10,9 @@ references:
 - https://redcanary.com/blog/marshmallows-and-kerberoasting/
 - https://www.security.com/threat-intelligence/us-china-espionage
 tags:
-- attack.account_discovery
+- attack.t1087
 - attack.t1087.002
-- attack.credential_access
+- attack.credential-access
 - attack.t1558.003
 author: mdecrevoisier
 status: experimental
@@ -47,9 +47,9 @@ references:
 - https://redcanary.com/blog/marshmallows-and-kerberoasting/
 - https://www.security.com/threat-intelligence/us-china-espionage
 tags:
-- attack.account_discovery
+- attack.t1087
 - attack.t1087.002
-- attack.credential_access
+- attack.credential-access
 - attack.t1558.003
 author: mdecrevoisier
 status: experimental
@@ -84,9 +84,9 @@ references:
 - https://redcanary.com/blog/marshmallows-and-kerberoasting/
 - https://www.security.com/threat-intelligence/us-china-espionage
 tags:
-- attack.account_discovery
+- attack.t1087
 - attack.t1087.002
-- attack.credential_access
+- attack.credential-access
 - attack.t1558.003
 author: mdecrevoisier
 status: experimental

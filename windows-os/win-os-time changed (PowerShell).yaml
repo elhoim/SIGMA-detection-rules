@@ -6,7 +6,7 @@ references:
 - https://blog.menasec.net/2019/02/threat-hunting-19-suspicious-system.html
 - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-date
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1070.006
 author: mdecrevoisier
 status: experimental
@@ -38,7 +38,7 @@ references:
 - https://blog.menasec.net/2019/02/threat-hunting-19-suspicious-system.html
 - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-date
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1070.006
 author: mdecrevoisier
 status: experimental
@@ -70,7 +70,7 @@ references:
 - https://blog.menasec.net/2019/02/threat-hunting-19-suspicious-system.html
 - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-date
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1070.006
 author: mdecrevoisier
 status: experimental

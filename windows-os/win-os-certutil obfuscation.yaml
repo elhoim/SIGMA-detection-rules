@@ -9,7 +9,7 @@ references:
 - https://www.sentinelone.com/blog/malware-living-off-land-with-certutil/
 - https://thedfirreport.com/2022/07/11/select-xmrig-from-sqlserver/
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1140
 author: mdecrevoisier
 status: experimental

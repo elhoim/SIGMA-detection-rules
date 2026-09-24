@@ -10,7 +10,7 @@ references:
 - https://www.ired.team/offensive-security/persistence/t1198-trust-provider-hijacking
 - https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/defense-evasion/t1553-subvert-trust-controls/sip-and-trust-provider-hijacking
 tags:
-- attack.defense_evasion
+- attack.defense-impairment
 - attack.t1553.003 # Subvert Trust Controls: SIP and Trust Provider Hijacking 
 author: mdecrevoisier (adapted from Nasreddine Bencherchali)
 status: experimental

@@ -5,7 +5,7 @@ references:
 - https://www.secureauth.com/blog/the-kerberos-key-list-attack-the-return-of-the-read-only-domain-controllers/
 - https://www.tarlogic.com/blog/how-to-attack-kerberos/
 tags:
-- attack.credential_access
+- attack.credential-access
 - attack.t1003 # credential dumping
 - attack.t1558 # forget ticket
 author: mdecrevoisier

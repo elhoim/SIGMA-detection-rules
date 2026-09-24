@@ -6,8 +6,8 @@ references:
 - https://thedfirreport.com/2023/10/30/netsupport-intrusion-results-in-domain-compromise/
 - https://www.sygnia.co/blog/china-nexus-threat-group-velvet-ant/
 tags:
-- attack.defense_evasion
-- attack.t1562.004
+- attack.defense-impairment
+- attack.t1686
 author: mdecrevoisier
 status: experimental
 logsource:

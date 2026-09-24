@@ -10,7 +10,7 @@ references:
 - https://red.c3r3br4t3.com/red-team-operations/lateral-movement/shadowrdp
 - https://blog.bitsadmin.com/spying-on-users-using-rdp-shadowing
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.001 # remote services: RDP
 - attack.collection
 - attack.t1113 # screen capture

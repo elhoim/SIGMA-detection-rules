@@ -9,7 +9,7 @@ references:
  - https://medium.com/threatpunter/detecting-adversary-tradecraft-with-image-load-event-logging-and-eql-8de93338c16
  - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.004
 author: mdecrevoisier
 status: experimental
@@ -46,7 +46,7 @@ references:
  - https://medium.com/threatpunter/detecting-adversary-tradecraft-with-image-load-event-logging-and-eql-8de93338c16
  - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.004
 author: mdecrevoisier
 status: experimental
@@ -83,7 +83,7 @@ references:
  - https://medium.com/threatpunter/detecting-adversary-tradecraft-with-image-load-event-logging-and-eql-8de93338c16
  - https://www.microsoft.com/en-us/security/blog/2022/10/18/defenders-beware-a-case-for-post-ransomware-investigations/
 tags:
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.004
 author: mdecrevoisier
 status: experimental

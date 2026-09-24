@@ -4,9 +4,9 @@ description: Detects scenarios where an attacker uses RDP tunneling to redirect 
 references:
 - https://github.com/sbousseaden/Slides/blob/master/Windows%20DFIR%20Events.pdf
 tags:
-- attack.command_and_control
+- attack.command-and-control
 - attack.t1572 # tunneling
-- attack.lateral_movement
+- attack.lateral-movement
 - attack.t1021.001 # remote services: RDP
 author: mdecrevoisier
 status: experimental

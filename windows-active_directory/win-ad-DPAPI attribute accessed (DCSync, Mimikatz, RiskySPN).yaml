@@ -13,7 +13,7 @@ references:
   - https://www.mandiant.com/resources/blog/apt29-windows-credential-roaming
   - https://www.dsinternals.com/en/retrieving-dpapi-backup-keys-from-active-directory/
 tags:
-  - attack.credential_access
+  - attack.credential-access
   - attack.t1555.004 # Credentials from Password Stores: Windows Credential Manager
 author: mdecrevoisier
 status: experimental

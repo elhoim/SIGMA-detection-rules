@@ -12,8 +12,8 @@ references:
 - https://www.exabeam.com/information-security/detecting-the-printnightmre-cve-2021-1675-34527-vulnerability-using-exabeam/
 - https://tdm.socprime.com/tdm/info/JCBHD21ATmuT/#sigma
 tags:
-- attack.privilege_escalation
-- attack.t1574.002
+- attack.privilege-escalation
+- attack.t1574.001
 author: mdecrevoisier
 status: experimental
 logsource:

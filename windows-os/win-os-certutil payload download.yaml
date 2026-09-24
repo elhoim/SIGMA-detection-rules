@@ -10,7 +10,7 @@ references:
 - https://thedfirreport.com/2022/07/11/select-xmrig-from-sqlserver/
 - https://www.recordedfuture.com/five-common-ransomware-techniques
 tags:
-- attack.defense_evasion
+- attack.stealth
 - attack.t1105
 author: mdecrevoisier
 status: experimental

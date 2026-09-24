@@ -8,7 +8,7 @@ references:
 tags:
 - attack.discovery
 - attack.t1046 # network service scanning
-- attack.initial_access
+- attack.initial-access
 - attack.t1078 # valid accounts
 author: mdecrevoisier
 status: experimental
