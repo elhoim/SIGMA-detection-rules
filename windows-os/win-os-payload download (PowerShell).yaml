@@ -21,17 +21,18 @@ detection: # full command: "IEX(New-Object Net.WebClient).downloadString('http:/
   selection_powershell_modern:
     EventID: 4103
     Payload|contains: 'WebClient'
+  and_selection_powershell_modern_2:
     Payload|contains:
       - ".DownloadString("
       - ".DownloadStringAsync("
       - ".DownloadFile("
       - ".DownloadData("
+  and_selection_powershell_modern_3:
     Payload|contains: 
       - 'http://'
       - 'https://'
       - 'ftp://'
-
-  condition: selection_powershell_modern
+  condition: (selection_powershell_modern and all of and_selection_powershell_modern_*)
 falsepositives:
 - Scripts donwloading files
 level: high
@@ -63,17 +64,18 @@ detection: # full command: "IEX(New-Object Net.WebClient).downloadString('http:/
   selection_powershell_native:
     EventID: 800
     EventData|contains: 'WebClient'
+  and_selection_powershell_native_2:
     EventData|contains:
       - ".DownloadString("
       - ".DownloadStringAsync("
       - ".DownloadFile("
       - ".DownloadData("
+  and_selection_powershell_native_3:
     EventData|contains: 
       - 'http://'
       - 'https://'
       - 'ftp://'
-
-  condition: selection_powershell_native
+  condition: (selection_powershell_native and all of and_selection_powershell_native_*)
 falsepositives:
 - Scripts donwloading files
 level: high
@@ -105,17 +107,18 @@ detection: # full command: "IEX(New-Object Net.WebClient).downloadString('http:/
   selection_powershell_block:
     EventID: 4104
     ScriptBlockText|contains: 'WebClient'
+  and_selection_powershell_block_2:
     ScriptBlockText|contains:
       - ".DownloadString("
       - ".DownloadStringAsync("
       - ".DownloadFile("
       - ".DownloadData("
+  and_selection_powershell_block_3:
     ScriptBlockText|contains: 
       - 'http://'
       - 'https://'
       - 'ftp://'
-
-  condition: selection_powershell_block
+  condition: (selection_powershell_block and all of and_selection_powershell_block_*)
 falsepositives:
 - Scripts donwloading files
 level: high

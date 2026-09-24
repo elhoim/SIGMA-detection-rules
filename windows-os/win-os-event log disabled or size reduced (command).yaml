@@ -19,10 +19,11 @@ detection: # Full command: wevtutil.exe” sl Security /e:false
     CommandLine|contains:
       - 'set-log'
       - sl # reduced command
+  and_selection_2:
     CommandLine|contains:
       - '/e:false' # <Enabled> - Does not work with all channel
       - '/ms:'     # <MaxSize> - suspicious if low value (min is 64Kb)
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - None
 level: high

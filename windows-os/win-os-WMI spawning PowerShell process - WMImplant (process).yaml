@@ -29,7 +29,7 @@ detection:
   selection_sysmon:
     EventID: 1
     ParentImage|endswith: \WmiPrvSE.exe
-    Image|endswith|endswith:
+    Image|endswith:
       - \powershell.exe
       - \pwsh.exe # PowerShell v6
       - \powershell_ise.exe # Development GUI

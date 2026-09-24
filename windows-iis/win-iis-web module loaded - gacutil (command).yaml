@@ -18,11 +18,6 @@ tags:
 - attack.t1505.004
 author: mdecrevoisier
 status: experimental
-tags:
-- attack.persistence
-- attack.t1505.004
-author: mdecrevoisier
-status: experimental|
 logsource:
   product: windows
   category: process_creation
@@ -32,8 +27,9 @@ detection:
     CommandLine|contains:
       - '-i'
       - '/i'
+  and_selection_2:
     CommandLine|contains: '.dll'
-  condition: selection
+  condition: (selection and all of and_selection_*)
 falsepositives:
 - New modules deployed on IIS Web servers, but also Exchange and ADCS servers
 level: high

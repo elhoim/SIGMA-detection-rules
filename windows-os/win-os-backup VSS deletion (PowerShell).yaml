@@ -25,15 +25,16 @@ detection: # full command: "Get-WmiObject Win32_Shadowcopy | ForEach-Object {$_.
       - Gwmi # Short version of previous object
       - Get-CimInstance
       - Gcim # Short version of previous object
+  and_selection_powershell_modern_2:
     Payload|contains: Win32_Shadowcopy
+  and_selection_powershell_modern_3:
     Payload|contains:
       - Delete
       - Remove-WmiObject
       - Rwmi # Short version of previous object
       - Remove-CimInstance
       - Rcim # Short version of previous object
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection_powershell_modern_*
 falsepositives:
 - None
 level: high
@@ -69,15 +70,16 @@ detection: # full command: "Get-WmiObject Win32_Shadowcopy | ForEach-Object {$_.
       - Gwmi # Short version of previous object
       - Get-CimInstance
       - Gcim # Short version of previous object
+  and_selection_powershell_native_2:
     EventData|contains: Win32_Shadowcopy
+  and_selection_powershell_native_3:
     EventData|contains:
       - Delete
       - Remove-WmiObject
       - Rwmi # Short version of previous object
       - Remove-CimInstance
       - Rcim # Short version of previous object
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection_powershell_native_*
 falsepositives:
 - None
 level: high
@@ -113,15 +115,16 @@ detection: # full command: "Get-WmiObject Win32_Shadowcopy | ForEach-Object {$_.
       - Gwmi # Short version of previous object
       - Get-CimInstance
       - Gcim # Short version of previous object
+  and_selection_powershell_block_2:
     ScriptBlockText|contains: Win32_Shadowcopy
+  and_selection_powershell_block_3:
     ScriptBlockText|contains:
       - Delete
       - Remove-WmiObject
       - Rwmi # Short version of previous object
       - Remove-CimInstance
       - Rcim # Short version of previous object
-
-  condition: 1 of selection*
+  condition: (1 of selection*) and all of and_selection_powershell_block_*
 falsepositives:
 - None
 level: high
