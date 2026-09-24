@@ -61,7 +61,7 @@ detection: # command: powershell  -c "Import-Module ServerManager; Add-WindowsFe
 
   selection_powershell_configuration_block:
     EventID: 4104
-    ScriptBlockText|contains|contains: Enable-BitLocker
+    ScriptBlockText|contains: Enable-BitLocker
 
   condition: 1 of selection_powershell_activation_* or 1 of selection_powershell_configuration_*
 falsepositives:
