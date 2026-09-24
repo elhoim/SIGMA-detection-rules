@@ -17,12 +17,11 @@ tags:
 author: mdecrevoisier
 status: experimental
 logsource:
+  category: process_creation
   product: windows
-  service: security
 detection: # Full command example: 'net use m: \\<dst-server>\c$ /USER:<compromised_user> <credentials>'
   selection_command:
-    EventID: 4688
-    NewProcessName|endswith:
+    Image|endswith:
       - \net1.exe
       - \net.exe
     CommandLine|contains|all:
