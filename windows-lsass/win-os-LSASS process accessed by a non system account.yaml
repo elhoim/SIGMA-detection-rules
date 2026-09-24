@@ -34,8 +34,8 @@ detection:
     SubjectUserName|endswith: '$'
     ProcessName:
       - '*\\AppData\Local\Google\Chrome\User Data\SwReporter\\*\software_reporter_tool.exe' # Google Chrome Security tool
-      - '*\ProgramData\Microsoft\Windows Defender\Platform\*'
-      - '*\Program Files\Windows Defender Advanced Threat Protection\*'
+      - '*\ProgramData\Microsoft\Windows Defender\Platform\\*'
+      - '*\Program Files\Windows Defender Advanced Threat Protection\\*'
       - '*\system32\csrss.exe'
       - '*\system32\wininit.exe'
       - '*\Windows\System32\rundll32.exe' # See LSASSY dedicated rule
