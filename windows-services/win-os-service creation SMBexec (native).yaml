@@ -24,7 +24,6 @@ detection:
       - 4697
       - 7045
     ServiceName: BTOBTO # Service name can be changed in the application name
-  filter:
   condition: selection
 falsepositives:
 - None
@@ -57,7 +56,6 @@ detection:
       - 4697
       - 7045
     ServiceName: BTOBTO # Service name can be changed in the application name
-  filter:
   condition: selection
 falsepositives:
 - None

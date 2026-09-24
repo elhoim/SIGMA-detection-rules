@@ -1,5 +1,6 @@
 title: Massive processes termination burst
 id: eb0dc378-375e-4cd2-8851-99491c5fc25b
+name: win_os_process_termination_kill_burst
 related:
   - id: 86085955-ea48-42a2-9dd3-85d4c36b167d
     type: similar
@@ -28,8 +29,23 @@ detection: # "taskkill /f /im sql"
     CommandLine|contains:
       - '/f'
       - '-f'
-  condition: selection | count(EventRecordID) by Computer > 2
-  timeframe: 1m
+  condition: selection
 falsepositives:
 - Administrator debugging
+level: high
+
+---
+title: Massive processes termination burst - count
+id: be67b5de-fea8-45e4-880b-4c98ba2c6c61
+status: experimental
+author: mdecrevoisier
+correlation:
+  type: event_count
+  rules:
+    - win_os_process_termination_kill_burst
+  group-by:
+    - Computer
+  timespan: 1m
+  condition:
+    gt: 2
 level: high
