@@ -14,7 +14,7 @@ tags:
 - attack.t1048 # Exfiltration Over Alternative Protocol
 - attack.lateral_movement
 - attack.t1570 # Lateral Tool Transfer
-- attack.Command_and_control
+- attack.command_and_control
 - attack.t1105 # Ingress Tool Transfer
 - attack.persistence
 - attack.t1197 # Bits jobs

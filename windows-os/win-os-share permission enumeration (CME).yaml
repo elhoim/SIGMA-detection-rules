@@ -8,8 +8,8 @@ references:
 - https://www.infosecmatter.com/crackmapexec-module-library/
 - https://mpgn.gitbook.io/crackmapexec/smb-protocol/enumeration/enumerate-shares-and-access
 tags:
-- attack.
-- attack.t
+- attack.discovery
+- attack.t1135 # Network Share Discovery
 author: mdecrevoisier
 status: experimental
 logsource:

@@ -9,7 +9,7 @@ references:
 - https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Azure%20SQL%20Database%20solution%20for%20sentinel/Hunting%20Queries/HuntingQuery-SuspiciousStoredProcedures.yaml
 tags:
 - attack.persistence
-- attack.T1505
+- attack.t1505
 author: mdecrevoisier
 status: experimental
 logsource:
