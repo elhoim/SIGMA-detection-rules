@@ -40,7 +40,7 @@ falsepositives:
 level: informational
 
 ---
-title: Massive SAM users/groups enumeration (native)
+title: Massive SAM users/groups enumeration (native) - count
 id: f76c7fe8-383a-49e2-abab-dac2259a2fbb
 status: experimental
 correlation:
