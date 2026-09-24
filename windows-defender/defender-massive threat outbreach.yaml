@@ -4,7 +4,6 @@ description: Detects scenarios where a same threat is detected on different host
 references:
 - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/Antivirus
-tags:
 author: mdecrevoisier
 status: experimental
 logsource:

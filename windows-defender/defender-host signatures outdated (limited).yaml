@@ -4,7 +4,6 @@ description: Detects scenarios where Defender signatures are outdated.
 references:
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/Antivirus
 - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus
-tags:
 author: mdecrevoisier
 status: experimental
 logsource:
