@@ -22,7 +22,6 @@ tags:
 - attack.persistence
 - attack.t1505.004
 author: mdecrevoisier
-status: experimental|
 logsource:
   product: windows
   category: process_creation
