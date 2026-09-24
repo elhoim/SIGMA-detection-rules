@@ -12,6 +12,7 @@ logsource:
 detection: # Add-LocalGroupMember -Group "Administrators" -Member "Admin02",
   selection2_powershell_modern:
     EventID: 4103
+    Payload|contains|all:
       - 'Add-LocalGroupMember'
       - '-Group'
       - '-Member'
@@ -46,12 +47,6 @@ detection: # Add-LocalGroupMember -Group "Administrators" -Member "Admin02",
       - '-Group'
       - '-Member'
 
-  selection2_powershell_modern:
-    EventID: 4103
-      - 'Add-LocalGroupMember'
-      - '-Group'
-      - '-Member'
-  
   condition: 1 of selection*
 falsepositives:
 - Pentest
@@ -75,12 +70,6 @@ logsource:
   product: windows
   category: ps_script
 detection: # Add-LocalGroupMember -Group "Administrators" -Member "Admin02",
-  selection2_powershell_modern:
-    EventID: 4103
-      - 'Add-LocalGroupMember'
-      - '-Group'
-      - '-Member'
-  
   selection3_powershell_block:
     EventID: 4104
     ScriptBlockText|contains|all:
