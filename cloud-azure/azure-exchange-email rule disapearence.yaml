@@ -28,11 +28,11 @@ detection:
     Parameters|contains: 'MoveToFolder'
   and_selection_2:
     Parameters|contains:
-      - 'RSS*'           # RSS feeds / RSS-feeds / RSS subscriptions
-      - 'Delete*'        # Deleted items
-      - 'Archive*'
-      - 'Conversation*'  # Conversation history
-      - 'Junk*'          # Junk email
+      - 'RSS'           # RSS feeds / RSS-feeds / RSS subscriptions
+      - 'Delete'        # Deleted items
+      - 'Archive'
+      - 'Conversation'  # Conversation history
+      - 'Junk'          # Junk email
   condition: (selection and all of and_selection_*)
 falsepositives:
 - users deleting emails on purpose
