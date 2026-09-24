@@ -1,5 +1,8 @@
 title: Brutforce with denied access due to account restrictions policies
 id: ef272c5d-0396-4041-94c6-f171fc48edfc
+related:
+  - id: 9eb99343-d336-4020-a3cd-67f3819e68ee
+    type: similar
 name: bruteforce_denied_account_restriction_policies
 description: Detects scenarios where an attacker attemps to use a comprimised account but failed to login due to account restrictions policies (permissions, time restrictions, workstation, logon type, ...)
 references:
