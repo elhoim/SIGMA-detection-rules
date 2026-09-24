@@ -18,10 +18,6 @@ tags:
 - attack.t1505.004
 author: mdecrevoisier
 status: experimental
-tags:
-- attack.persistence
-- attack.t1505.004
-author: mdecrevoisier
 logsource:
   product: windows
   category: process_creation
