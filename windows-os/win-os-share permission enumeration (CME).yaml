@@ -1,5 +1,6 @@
 title: CrackMaxpExec share permission enumeration
 id: 8e2a501f-5233-4ae8-afed-6b43e9acef24
+name: win_os_share_permission_enumeration_cme
 description: Detects scenarios where an attacker would perform share permission enumeration using CrackMaxExec SMBmodule.
 correlation: correlate TargetLogonId from ID 4624 with SubjectLogonId from ID 5145 to identify the source of the enumeration.
 references:
@@ -32,8 +33,24 @@ detection: # full command: cme smb -u user -p password --shares
   filter:
     IpAddress: '%administration_hosts%' # List of IPs of your administration host to reduce false positive
 
-  condition: selection_baseline and not filter and (selection_pipes or selection_admin_share) | count(Computer) by IpAddress > 20
-  timeframe: 15m
+  condition: selection_baseline and not filter and (selection_pipes or selection_admin_share)
 falsepositives:
 - Administrator activity, backup solutions, Windows Server Manager
+level: medium
+
+---
+title: CrackMaxpExec share permission enumeration - count
+id: f748169b-a55f-4aa1-aeb0-8424caba852b
+status: experimental
+author: mdecrevoisier
+correlation:
+  type: value_count
+  rules:
+    - win_os_share_permission_enumeration_cme
+  group-by:
+    - IpAddress
+  timespan: 15m
+  condition:
+    gt: 20
+    field: Computer
 level: medium

@@ -1,5 +1,6 @@
 title: WinRM listening service reconnaissance (process)
 id: afc9a232-e3fd-4fe0-8219-795232fc58fb
+name: win_winrm_listening_service_reconnaissance_process
 description: Detects scenarios where an attacker enumerates different remote WinRM listeners for lateral movement purposes.
 correlation: correlate TargetLogonId from event ID 4688 with TargetLogonId from event ID 4624 to identify the source host.
 references:
@@ -26,8 +27,22 @@ detection:
     NewProcessName|endswith: \wsmprovhost.exe
   filter:
     TargetUserName|endswith: '$'
-  condition: selection and not filter | count(Computer) > 30
-  timeframe: 15m
+  condition: selection and not filter
 falsepositives:
 - Administrator activity, Windows Server Manager, applications using WinRM
+level: medium
+
+---
+title: WinRM listening service reconnaissance (process) - count
+id: 8199987c-69f9-47da-a073-754cce6d4aa0
+status: experimental
+author: mdecrevoisier
+correlation:
+  type: value_count
+  rules:
+    - win_winrm_listening_service_reconnaissance_process
+  timespan: 15m
+  condition:
+    gt: 30
+    field: Computer
 level: medium

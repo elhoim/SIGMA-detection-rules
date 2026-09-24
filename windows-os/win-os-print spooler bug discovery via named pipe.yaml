@@ -1,5 +1,6 @@
 title: Discovery for print spooler bug abuse (NTLM hash retrivial) via named pipe
 id: 7caf8eea-e15f-49e9-85f8-0c14a6dac698
+name: win_os_print_spooler_bug_discovery_via_named_pipe
 description: Detects scenarios where an attacker with a responder in place initiates an authenticated callback request from a targeted host with the print spooler service enabled (RpcRemoteFindFirstPrinterChangeNotification abuse). In case the targeted host answers to the responder, the NTLM hash of the computer account will be disclosed. Following that, the hash can be used for different type of abuse like Silver ticket generation or unconstrained delegation abuse. The rule is designed to detect the following scripts > printerbug.py, dementor.py, SpoolSample.exe and Get-SpoolStatus.ps1.
 correlation: correlate SubjectLogonId + IpPort from ID 5145 with ID TargetLogonId + IpPort from 4624.
 references:
@@ -29,7 +30,24 @@ detection:
     AccessMask:
       - 0x3 # printerbug.py, dementor.py
       - 0x12019F # Get-SpoolStatus.ps1
-  condition: selection | count(Computer) by IpAddress > 20
+  condition: selection
 falsepositives:
 - vulnerability scanners
+level: high
+
+---
+title: Discovery for print spooler bug abuse (NTLM hash retrivial) via named pipe - count
+id: a99a1566-15b3-44b0-a795-a6b22fc2635a
+status: experimental
+author: mdecrevoisier
+correlation:
+  type: value_count
+  rules:
+    - win_os_print_spooler_bug_discovery_via_named_pipe
+  group-by:
+    - IpAddress
+  timespan: 1h # v1 rule had no timeframe: 1h assumed, please adjust
+  condition:
+    gt: 20
+    field: Computer
 level: high

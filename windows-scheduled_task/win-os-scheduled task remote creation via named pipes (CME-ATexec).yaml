@@ -1,5 +1,6 @@
 title: Massive remote schedule task creation via named pipes (CrackMapExec with ATexec)
 id: 76df8bef-672a-4ead-8687-6b83f984bc3c
+name: win_os_scheduled_task_remote_creation_via_named_pipes_cme_atexec
 description: Detects scenarios where an attacker remotely creates a scheduled task on multiple hosts over named pipes to execute commands or elevate privileges.
 references:
 - https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack/tree/master/TA0002-Execution/T1053.005-Scheduled%20Task
@@ -20,7 +21,24 @@ detection:
     ShareName: '\\*\IPC$'
     RelativeTargetName: atsvc
     AccessList|contains: '%%4417' # WriteData
-  condition: selection | count(Computer) by IpAddress > 20
+  condition: selection
 falsepositives:
 - Administrator activity, backup solutions
+level: medium
+
+---
+title: Massive remote schedule task creation via named pipes (CrackMapExec with ATexec) - count
+id: 9a0bfc83-aefb-4d51-b751-7d856b24147a
+status: experimental
+author: mdecrevoisier
+correlation:
+  type: value_count
+  rules:
+    - win_os_scheduled_task_remote_creation_via_named_pipes_cme_atexec
+  group-by:
+    - IpAddress
+  timespan: 1h # v1 rule had no timeframe: 1h assumed, please adjust
+  condition:
+    gt: 20
+    field: Computer
 level: medium
