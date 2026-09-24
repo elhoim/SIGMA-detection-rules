@@ -9,7 +9,6 @@ tags:
 - attack.lateral_movement
 - attack.t1021.001 # remote services: RDP
 - attack.privilege_escalation
-- attack.t1021.001 # exploit for privilege escalation
 author: mdecrevoisier
 status: experimental
 logsource:
