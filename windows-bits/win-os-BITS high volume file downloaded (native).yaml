@@ -8,7 +8,6 @@ references:
 - https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/bitsadmin-examples
 - https://attack.mitre.org/software/S0190/
 - https://www.microsoft.com/security/blog/2019/12/12/multi-stage-downloader-trojan-sload-abuses-bits-almost-exclusively-for-malicious-activities/
-- https://medium.com/@threathuntingteam/background-intelligent-transfer-protocol-ab81cd900aa7
 - https://www.hackingarticles.in/windows-for-pentester-bitsadmin/
 tags:
 - attack.exfiltration
