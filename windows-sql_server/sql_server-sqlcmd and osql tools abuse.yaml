@@ -12,7 +12,6 @@ references:
 tags:
 - attack.persistence
 - attack.t1505.001
-- 
 author: mdecrevoisier
 status: experimental
 logsource:
