@@ -1,8 +1,6 @@
 title: Local group membership change - ps_module
 id: 58b87bbc-aebf-4d88-9c74-f13ebf31a66d
 description: Detects if a member is added to a local group via PowerShell.
-references:
-- 
 tags:
 - attack.persistence
 - attack.t1098 # account manipulation
@@ -32,8 +30,6 @@ related:
   - id: 58b87bbc-aebf-4d88-9c74-f13ebf31a66d
     type: similar
 description: Detects if a member is added to a local group via PowerShell.
-references:
-- 
 tags:
 - attack.persistence
 - attack.t1098 # account manipulation
@@ -70,8 +66,6 @@ related:
   - id: 58b87bbc-aebf-4d88-9c74-f13ebf31a66d
     type: similar
 description: Detects if a member is added to a local group via PowerShell.
-references:
-- 
 tags:
 - attack.persistence
 - attack.t1098 # account manipulation
